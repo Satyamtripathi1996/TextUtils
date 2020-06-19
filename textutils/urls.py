@@ -6,6 +6,6 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='index'),
-    path('analyze', views.analyze, name='analyze'),
+    path('https://github.com/Satyamtripathi1996/textutils/edit/master/textutils/urls.py', views.index, name='index'),
+    path('https://github.com/Satyamtripathi1996/textutils/edit/master/textutils/urls.py', views.analyze, name='analyze'),
 ]
